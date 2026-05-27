@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "清华大学网络学堂默认卡片模式",
+  "version": "1.0",
+  "description": "自动将课程列表切换为卡片模式",
+  "author": "gongboxi",
+  "content_scripts": [
+    {
+      "matches": ["https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
